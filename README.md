@@ -149,3 +149,12 @@ If you move to a production server, consider using a `.env` file or server envir
 
 **Your Name**  
 📧 adityadilpake22@gmail.com  
+Output:
+<img width="1349" height="636" alt="image" src="https://github.com/user-attachments/assets/fae450d0-336e-4378-bb64-326881060b7b" />
+<img width="1345" height="690" alt="image" src="https://github.com/user-attachments/assets/ec21af39-c7c4-4e70-b78e-235be744a4fa" />
+<img width="1339" height="636" alt="image" src="https://github.com/user-attachments/assets/1fe6caaa-579c-4fb5-a148-e04fe26cdd33" />
+<img width="1341" height="624" alt="image" src="https://github.com/user-attachments/assets/fba21175-1df6-4c4f-b0b9-06848ccec691" />
+
+
+
+
