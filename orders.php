@@ -143,31 +143,4 @@ $result = $conn->query($sql);
 
 
 <?php include 'footer.php'; ?>
- <tbody>
-                <?php
-                if ($result && $result->num_rows > 0) {
-                    while ($row = $result->fetch_assoc()) {
-                        // Logic for Status Badge Colors
-                        $status = $row['status'] ?? 'Pending'; // Default if empty
-                        $statusClass = 'status-pending';
-                        if ($status == 'Completed') $statusClass = 'status-completed';
-                        if ($status == 'Cancelled') $statusClass = 'status-cancelled';
-
-                        echo "<tr>";
-                        echo "<td><span class='fw-bold text-muted'>#".$row['id']."</span></td>";
-                        echo "<td><div class='fw-bold'>".$row['customer_name']."</div></td>";
-                        echo "<td>
-                                <div class='small text-dark'>".$row['phone']."</div>
-                                <div class='small text-muted text-truncate' style='max-width: 150px;'>".$row['address']."</div>
-                              </td>";
-                        echo "<td><span class='text-wrap' style='font-size: 0.9rem;'>".$row['order_details']."</span></td>";
-                        echo "<td><span class='fw-bold text-success'>₹".$row['total_price']."</span></td>";
-                        echo "<td><span class='status-badge ".$statusClass."'>".$status."</span></td>";
-                        echo "<td><small class='text-muted'>".date('d M Y, h:i A', strtotime($row['created_at']))."</small></td>";
-                        echo "</tr>";
-                    }
-                } else {
-                    echo "<tr><td colspan='7' class='text-center py-5 text-muted'>No orders found in the system.</td></tr>";
-                }
-                ?>
-            </tbody>
+ 
