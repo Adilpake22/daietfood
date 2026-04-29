@@ -289,6 +289,36 @@
 
 
 
+
+
+
+    
+
+<!--========================================================   salad-banner  ================================= =======================================  -->  
+
+
+<section class="salad-banner">
+  <div class="side-assets left">
+<img src="food/bg50.png" alt="Leaf" class="item leaf-1"
+     style="width:320px; max-width:none; margin:20px;">
+
+
+
+  </div>
+
+  <div class="content">
+    <h1>Ready to Experience the <br><span class="highlight">Fresh Salads?</span> Order Now!</h1>
+    <a href="store.php" class="cta-button">VISIT OUR STORE</a>
+  </div>
+
+  <div class="side-assets right">
+    <div class="bowl-container">
+      <img src="food/bg52.png" alt="Salad Bowl" class="main-bowl">
+      <img src="food/bg55.png" alt="Tomato" class="item float-piece-1">
+      <img src="food/bg53.png" alt="Onion" class="item float-piece-2">
+    </div>
+  </div>
+</section>
 </body>
 </html>
  <?php include 'footer.php'; ?>
